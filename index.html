@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conserto de Microondas - Serviço Especializado</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Arial, sans-serif;
+        }
+
+        header {
+            background-color: #babbc5;
+            color: white;
+            padding: 25px 0;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+
+        .hero {
+            background-image: linear-gradient(rgba(26,35,126,0.8), rgba(26,35,126,0.8)), url('https://multiserviciosprecisur.com/wp-content/uploads/2022/08/Servicio-Tecnico-de-Hornos-Microondas.webp');
+            background-size: cover;
+            height: 500px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+
+        .servicos {
+            padding: 70px 20px;
+            background-color: #ffffff;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .card {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+            border: 1px solid #e0e0e0;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .contato {
+            padding: 70px 20px;
+            text-align: center;
+            background-color: #f5f5f5;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 15px 35px;
+            background-color: #047400;
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            margin-top: 25px;
+            transition: all 0.3s ease;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .btn:hover {
+            background-color: #283593;
+            transform: scale(1.05);
+            box-shadow: 0 5px 15px rgba(26,35,126,0.3);
+        }
+
+        footer {
+            background-color: #1a237e;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        h2 {
+            color: #1a237e;
+            margin-bottom: 20px;
+            font-size: 2.2em;
+        }
+
+        .hero h2 {
+            color: white;
+            font-size: 2.8em;
+            margin-bottom: 20px;
+        }
+
+        .card h3 {
+            color: #1a237e;
+            margin-bottom: 15px;
+        }
+        .logo {
+        max-width: 300px;
+        height: auto;
+        margin: 10px 0;
+    }
+
+    header {
+        background-color: #ffffff;
+        color: white;
+        padding: 15px 0;
+        text-align: center;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer {
+        background-color: #1a237e;
+        color: white;
+        text-align: center;
+        padding: 25px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    footer .logo {
+        max-width: 200px;
+    }
+    .endereco {
+    padding: 70px 20px;
+    background-color: #ffffff;
+}
+
+.endereco-content {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.endereco-info {
+    padding: 30px;
+    background: #f5f5f5;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.endereco-info i {
+    color: #1a237e;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.endereco-info p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.mapa {
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 768px) {
+    .endereco-content {
+        grid-template-columns: 1fr;
+    }
+}
+    
+    </style>
+</head>
+<body>
+    <header>
+    
+        <img src="logo.png" alt="Microondas Fácil" class="logo">
+
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Conserto rápido e garantido</h2>
+            <p>Atendimento em toda a região com profissionais especializados</p>
+            <a href="#contato" class="btn">Solicitar Orçamento</a>
+        </div>
+    </section>
+
+    <section class="servicos">
+        <div class="container">
+            <h2>Nossos Serviços</h2>
+            <div class="cards">
+                <div class="card">
+                    <h3>Manutenção Preventiva</h3>
+                    <p>Evite problemas futuros com nossa manutenção especializada</p>
+                </div>
+                <div class="card">
+                    <h3>Conserto Geral</h3>
+                    <p>Reparos em qualquer marca e modelo de microondas</p>
+                </div>
+                <div class="card">
+                    <h3>Troca de Peças</h3>
+                    <p>Utilizamos peças originais com garantia</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="contato">
+        <div class="container">
+            <h2>Entre em Contato</h2>
+            <p>Ligue agora e agende seu serviço</p>
+            <p>📞 (71) 98402-3379</p>
+            <p>📧 nelsonmotadesouza@gmail.com</p>
+            <a href="https://wa.me/5571984023379" class="btn">Chamar no WhatsApp</a>
+        </div>
+    </section>
+    <section class="endereco">
+        <div class="container">
+            <h2>Nosso Endereço</h2>
+            <div class="endereco-content">
+                <div class="endereco-info">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>Rua José Alves Barbosa</p>
+                    <p>Quadra 01, Lote 32</p>
+                    <p>Jardim Pouso Alegre, Itinga</p>
+                    <p>Lauro de Freitas - BA</p>
+                </div>
+                <div class="mapa">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d246.24206002484436!2d-38.33884689727009!3d-12.892803357489655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sminha%20empresa!5e1!3m2!1spt-BR!2sbr!4v1739068866705!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" 
+                        width="100%" 
+                        height="450" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <img src="logo.png" alt="Microondas Fácil" class="logo">
+        <p>&copy; 2024 Microondas Fácil - Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>
